@@ -5,6 +5,10 @@
     "./bar": {
       "require": "./bar.js",
       "import": "./esm/bar.js"
+    },
+    "./baz": {
+      "require": "./baz.js",
+      "import": "./esm/baz.mjs"
     }
   }
 }
