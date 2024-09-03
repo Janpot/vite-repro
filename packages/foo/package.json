@@ -1,0 +1,10 @@
+{
+  "name": "foo",
+  "version": "0.0.1",
+  "exports": {
+    "./bar": {
+      "require": "./bar.js",
+      "import": "./esm/bar.js"
+    }
+  }
+}
